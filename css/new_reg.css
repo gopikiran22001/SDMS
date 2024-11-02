@@ -1,0 +1,111 @@
+.box
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.box form{
+    margin-top: 60px;
+    height: 100%;
+    width: 60%;
+    background-color: white;
+    box-shadow: 0px 4px 12px 0px rgba(129, 71, 231, 0.2);
+}
+.fname_image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.fname_image_input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    margin-right: 35px;
+}
+.fname_image_input input{
+    outline: none;
+    border: none;
+    width: 61.5%;
+    border-bottom: 1px solid black;
+    margin: 10px;
+}
+.input{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.input input{
+    
+    outline: none;
+    border: none;
+    width: 70%;
+    border-bottom: 1px solid black;
+    margin: 10px;
+    background-color: transparent;
+}
+.input textarea{
+    width: 70%;
+    height: 50px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+
+
+}
+.input select{
+    width: 70%;
+    height: 30px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+}
+.input select option{
+    background-color: transparent;
+}
+.radio
+{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    margin-bottom: 10px;
+
+}
+.radio input[type="radio"]
+{
+    width: 5%;
+    margin: 10px;
+}
+.box form input[type="submit"]{
+    border: none;
+    width: 15%;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+    background-color:  rgba(143, 109, 255, 1);
+    cursor: pointer;
+    transition: 0.5s;
+    height: 35px;
+    margin-left: 56%;
+}
+.box form input[type="submit"]:hover{
+
+    color: rgba(143, 109, 255, 1);
+    background-color:rgba(129, 71, 231, 0.2);
+}
+h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

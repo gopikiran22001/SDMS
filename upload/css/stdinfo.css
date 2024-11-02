@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+   box-sizing: border-box;
+   background-image: url("icon\\Waves.png");
+   height: 100%;
+   background-size: cover;
+   width: 100%;
+}
+.box
+{
+    
+    height:96%;
+    width: 94%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    margin-left: 3%;
+    margin-right: 3%;
+    border-radius: 5px;
+    box-shadow: 0px 4px 12px 0px rgba(129, 71, 231, 0.2);
+}
+.details
+{
+    height: 46%;
+    width: 96%;
+    margin: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.details img{
+    height: 170px;
+    width: 170px;
+    border-radius: 5px;
+    margin: 1%;
+    border: none;
+}
+.name
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 94%;
+    width: 600px;
+}
+.name span
+{
+
+    margin: 5px;
+    margin-left: 10px;
+}
+.att
+{
+    display: flex;
+    height: 143px;
+    width: 367px;
+    border: 0px solid black;
+    border-radius: 5px;
+    margin-right: 50px;
+    margin-left: 200px;
+    color: rgba(129, 71, 231, 1);
+    background-color: rgba(129, 71, 231, 0.2);
+}
+.att span
+{
+    font-size: 40px;
+}
+.opt
+{
+    height: 25px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    border-bottom: 2px solid rgba(228, 228, 228, 1);
+}
+.opt button
+{
+    border: none;
+    background-color: transparent;
+    color: rgba(112, 112, 112, 1);
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 17px;
+    height: 100%;
+    width: auto;
+}
+.opt button:hover{
+    color: rgba(61, 112, 245, 1);
+    background-color: transparent;
+    border-bottom: 2px solid rgba(61, 112, 245, 1);
+}
+#a1
+{
+    display: flex;
+    flex-direction: column;
+}
+a
+{
+    margin-top: 20px;
+    margin-left: 3%;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+    text-decoration: underline;
+}

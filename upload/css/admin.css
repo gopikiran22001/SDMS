@@ -1,0 +1,101 @@
+@import url('https://fonts.cdnfonts.com/css/poppins');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url("icon\\Waves.png");
+    background-size: cover;
+
+}
+.box
+{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border-radius: 3%;
+    box-shadow: 0px 4px 12px 0px rgba(129, 71, 231, 0.2);
+    background: rgba(255, 255, 255, 1);
+    border-radius: 15px;
+
+}
+.box form{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 40px;
+
+
+}
+.box form a{
+    margin-top: 20px;
+    text-decoration: none;
+}
+.box form a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.box form h2{
+    color:black;
+    font-weight: 300;
+    font-size: 36px;
+
+}
+i{
+    margin-left: 5px;
+    margin-right: 5px;
+    color:black;
+}
+.box form input{
+    position: relative;
+    width: 85%;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    border: 1px;
+    
+    background-color: rgba(237, 237, 237, 1);
+    
+    font-size: 1em;
+    letter-spacing: 0.05em;
+}
+.box form input::placeholder{
+    color: rgba(170, 170, 170, 1);
+}
+
+.box form input[type="submit"]{
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+    background-color:  rgba(143, 109, 255, 1);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.box form input[type="submit"]:hover{
+
+    color: rgba(143, 109, 255, 1);
+    background-color:rgba(129, 71, 231, 0.2);
+}
+.an{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 95px;
+    margin-right: 5px;
+}
